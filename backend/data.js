@@ -1,0 +1,53 @@
+const data = {
+  products: [
+    {
+      nama: "Nike Slim Shirt",
+      slug: "nike-slim-shirt",
+      kategori: "Shirts",
+      gambar: "/images/OIP.jpeg",
+      harga: 120,
+      stok: 10,
+      brand: "Nike",
+      rating: 4.5,
+      ulasan: 10,
+      deskripsi: "high quality product",
+    },
+    {
+      nama: "Nike Air Jordan",
+      slug: "nike-air-jordan",
+      kategori: "Shoes",
+      gambar: "images/p2.jpg",
+      harga: 120,
+      stok: 10,
+      brand: "Nike",
+      rating: 4.5,
+      ulasan: 10,
+      deskripsi: "high quality product",
+    },
+    {
+      nama: "Nike Slim Pants",
+      slug: "nike-slim-pants",
+      kategori: "Pants",
+      gambar: "/images/p3.jpg",
+      harga: 120,
+      stok: 10,
+      brand: "Nike",
+      rating: 4.5,
+      ulasan: 10,
+      deskripsi: "high quality product",
+    },
+    {
+      nama: "Adidas Slim Shirt",
+      slug: "adidas-slim-shirt",
+      kategori: "Shirts",
+      gambar: "/images/p4.jpg",
+      harga: 120,
+      stok: 10,
+      rating: 4.5,
+      ulasan: 10,
+      deskripsi: "high quality product",
+    },
+  ],
+};
+
+export default data;
