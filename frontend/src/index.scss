@@ -18,3 +18,28 @@ header {
     font-weight: bold;
   }
 }
+
+main {
+  padding: 1rem;
+
+  .products {
+    display: flex;
+    justify-content: center;
+    .product-info{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 1rem;
+    }
+    .product {
+      border: 1px solid black;
+      margin: 1rem;
+
+      img {
+        width: 100%;
+        max-width: 400px;
+      }
+    }
+  }
+}
