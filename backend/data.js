@@ -6,7 +6,7 @@ const data = {
       kategori: "Shirts",
       gambar: "/images/OIP.jpeg",
       harga: 120,
-      stok: 10,
+      stok: 0,
       brand: "Nike",
       rating: 4.5,
       ulasan: 10,
