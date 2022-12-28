@@ -7,25 +7,27 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-header {
-  background-color: greenyellow;
-  padding: 1rem;
+// header {
+//   background-color: greenyellow;
+//   padding: 1rem;
 
-  a {
-    color: white;
-    text-decoration: none;
-    font-size: 1.5rem;
-    font-weight: bold;
-  }
+//   a {
+//     color: white;
+//     text-decoration: none;
+//     font-size: 1.5rem;
+//     font-weight: bold;
+//   }
+// }
+.site-container {
+  min-height: 100vh;
 }
-
 main {
-  padding: 1rem;
+  flex: 1;
 
   .products {
     display: flex;
     justify-content: center;
-    .product-info{
+    .product-info {
       display: flex;
       flex-direction: column;
       justify-content: center;
